@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Ryan Chen</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #1a1a1a;
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 40px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .name-header {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        .main-nav {
+            display: flex;
+            gap: 32px;
+        }
+        .main-nav a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .main-nav a.active {
+            font-weight: 500;
+        }
+        .page-content {
+            flex: 1;
+            padding: 60px 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 350;
+            line-height: 1.1;
+            letter-spacing: -1px;
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.1rem;
+        }
+        .contact-buttons {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .contact-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .email-button {
+            background-color: #1a1a1a;
+            color: white;
+            border: 1px solid #1a1a1a;
+        }
+        .email-button:hover {
+            background-color: #333;
+        }
+        .linkedin-button {
+            background-color: white;
+            color: #0077b5;
+            border: 1px solid #0077b5;
+        }
+        .linkedin-button:hover {
+            background-color: #f5f5f5;
+        }
+        .button-icon {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="name-header">Ryan Chen</div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html" class="active">About</a>
+        </nav>
+    </div>
+
+    <div class="page-content">
+        <h1>About Me</h1>
+        <p>Hello! I'm Ryan Chen, a [your profession] based in [your location].</p>
+        <p>With [x] years of experience in [your field], I specialize in [your specialties].</p>
+        <p>When I'm not working, you can find me [personal interests/hobbies].</p>
+        
+        <div class="contact-buttons">
+            <a href="mailto:your.email@example.com" class="contact-button email-button">
+                <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                Email Me
+            </a>
+            <a href="https://linkedin.com/in/ryanchen025" target="_blank" class="contact-button linkedin-button">
+                <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                LinkedIn
+            </a>
+        </div>
+    </div>
+</body>
+</html>

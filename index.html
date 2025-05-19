@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Chen | Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #1a1a1a;
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 40px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .name-header {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        .main-nav {
+            display: flex;
+            gap: 32px;
+        }
+        .main-nav a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .main-nav a.active {
+            font-weight: 500;
+        }
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 350;
+            line-height: 1.1;
+            letter-spacing: -1px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="name-header">Ryan Chen</div>
+        <nav class="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+
+    <main class="hero">
+        <h1>Hi, I'm Ryan Chen!</h1>
+    </main>
+</body>
+</html>

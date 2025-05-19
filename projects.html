@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Ryan Chen</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #1a1a1a;
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 40px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .name-header {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        .main-nav {
+            display: flex;
+            gap: 32px;
+        }
+        .main-nav a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .main-nav a.active {
+            font-weight: 500;
+        }
+        .page-content {
+            flex: 1;
+            padding: 60px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 350;
+            line-height: 1.1;
+            letter-spacing: -1px;
+            margin-bottom: 30px;
+        }
+        .project-item {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .project-item:last-child {
+            border-bottom: none;
+        }
+        .project-item h3 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .project-item p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="name-header">Ryan Chen</div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+
+    <div class="page-content">
+        <h1>My Projects</h1>
+        
+        <div class="project-item">
+            <h3>Project Title 1</h3>
+            <p>Brief description of the project and your role in it.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Project Title 2</h3>
+            <p>Brief description of the project and your role in it.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Project Title 3</h3>
+            <p>Brief description of the project and your role in it.</p>
+        </div>
+    </div>
+</body>
+</html>
