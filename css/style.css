@@ -1,0 +1,56 @@
+/* Base Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main-nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 80px 5%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #999;
+    border-top: 1px solid #eee;
+}
